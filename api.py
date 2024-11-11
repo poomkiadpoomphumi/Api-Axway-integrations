@@ -11,7 +11,7 @@ payload = json.dumps({
     "To": "29-01-2024 00:00",
     "Profile": "dude"
     })
-headers = {'Content-Type': 'application/json','KeyId': '019ec11a-6c41-4b39-b3f5-356aa973b474'}
+headers = {'Content-Type': 'application/json','KeyId': ''}
 
 def make_post_request(url, payload):
     try:
